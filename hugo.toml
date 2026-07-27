@@ -1,4 +1,4 @@
 baseURL = 'https://yangyifan.net/'
 locale = 'en-us'
-title = 'My New Hugo Project'
+title = '杨一帆的小窝'
 theme = 'PaperMod'
