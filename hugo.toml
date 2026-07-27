@@ -19,8 +19,8 @@ theme = 'PaperMod'
 
 # 顶部提示语（可选：会在文章列表上方显示一行欢迎词）
 [params.homeInfoParams]
-  Title = "👋 欢迎来到杨一帆的小窝"
-  Content = "记录我的世界。"
+  Title = "欢迎来到杨一帆的小窝"
+  Content = "记录我的世界"
 
 # 关闭全屏名片模式，强制开启文章标题列表模式
 [params.profileMode]
