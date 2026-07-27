@@ -8,20 +8,17 @@ theme = 'PaperMod'
   title = "杨一帆的小窝"
   description = "欢迎来到我的个人博客"
 
+  # 元信息控制（核心修改部分）
+  hideMeta = false           # 开启元信息展示
+  showWordCount = true       # 关键：显示字数
+  showReadingTime = false    # 不显示预计阅读时间
+  dateFormat = ""            # 关键：把日期格式清空，这样时间就不会显示出来了
+
   # 排版与列表设置
-  hideSummary = true         # 关键：只显示文章标题，隐藏下方摘要段落
-  showReadingTime = false    # 不显示阅读时间，保持页面简洁
-  showWordCount = false      # 不显示字数
+  hideSummary = true         # 首页列表中只显示文章标题，隐藏摘要
 
   # 顶栏导航与主题选项
   defaultTheme = "auto"      # 自动跟随系统（深色/浅色模式）
-  ShowCodeCopyButtons = true # 代码块显示复制按钮
 
-# 顶部提示语（可选：会在文章列表上方显示一行欢迎词）
-[params.homeInfoParams]
-  Title = "欢迎来到杨一帆的小窝"
-  Content = "记录我的世界"
-
-# 关闭全屏名片模式，强制开启文章标题列表模式
 [params.profileMode]
-  enabled = false
+  enabled = false            # 开启文章标题列表模式
