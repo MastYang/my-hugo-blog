@@ -1,7 +1,7 @@
 +++
 date = '2026-07-26T21:11:47+08:00'
 draft = false
-title = 'First Post'
+title = '第一次在自己的网站上留下记录'
 +++
 Amazing  
 
