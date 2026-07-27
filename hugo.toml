@@ -1,4 +1,27 @@
 baseURL = 'https://yangyifan.net/'
-locale = 'en-us'
+languageCode = 'zh-cn'
 title = '杨一帆的小窝'
 theme = 'PaperMod'
+
+[params]
+  env = "production"
+  title = "杨一帆的小窝"
+  description = "欢迎来到我的个人博客"
+
+  # 排版与列表设置
+  hideSummary = true         # 关键：只显示文章标题，隐藏下方摘要段落
+  showReadingTime = false    # 不显示阅读时间，保持页面简洁
+  showWordCount = false      # 不显示字数
+
+  # 顶栏导航与主题选项
+  defaultTheme = "auto"      # 自动跟随系统（深色/浅色模式）
+  ShowCodeCopyButtons = true # 代码块显示复制按钮
+
+# 顶部提示语（可选：会在文章列表上方显示一行欢迎词）
+[params.homeInfoParams]
+  Title = "👋 欢迎来到杨一帆的小窝"
+  Content = "记录生活、思考与技术。"
+
+# 关闭全屏名片模式，强制开启文章标题列表模式
+[params.profileMode]
+  enabled = false
