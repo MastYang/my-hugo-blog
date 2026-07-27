@@ -8,14 +8,13 @@ theme = 'PaperMod'
   title = "杨一帆的小窝"
   description = "欢迎来到我的个人博客"
 
-  # 元信息控制（核心修改部分）
-  hideMeta = false           # 开启元信息展示
-  showWordCount = true       # 关键：显示字数
-  showReadingTime = false    # 不显示预计阅读时间
-  dateFormat = ""            # 关键：把日期格式清空，这样时间就不会显示出来了
+  # 元信息控制
+  hideMeta = true            # 关键：彻底隐藏标题下方的日期、字数等信息
 
   # 排版与列表设置
-  hideSummary = true         # 首页列表中只显示文章标题，隐藏摘要
+  hideSummary = true         # 只显示文章标题，隐藏下方摘要段落
+  showReadingTime = false    # 不显示阅读时间
+  showWordCount = true      # 显示字数
 
   # 顶栏导航与主题选项
   defaultTheme = "auto"      # 自动跟随系统（深色/浅色模式）
