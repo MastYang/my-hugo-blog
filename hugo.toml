@@ -23,5 +23,5 @@ theme = 'PaperMod'
   enabled = false            # 开启文章标题列表模式
 
 [params.homeInfoParams]
-  Title = "欢迎来到杨一帆的小窝"
+  Title = "欢迎回家"
   Content = "记录我的世界"
